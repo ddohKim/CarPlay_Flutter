@@ -1,0 +1,6 @@
+framework module flutter_carplay {
+  umbrella header "flutter_carplay-umbrella.h"
+
+  export *
+  module * { export * }
+}

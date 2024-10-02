@@ -1,0 +1,31 @@
+{
+  "name": "flutter_carplay",
+  "version": "1.0.3",
+  "summary": "Flutter Apps are now on Apple CarPlay.",
+  "description": "Flutter Apps are now on Apple CarPlay. This package aims to make it safe to use iPhone apps made with Flutter in the car by integrating with CarPlay.",
+  "homepage": "https://github.com/oguzhnatly/flutter_carplay",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Oğuzhan Atalay": "info@oguzhanatalay.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
